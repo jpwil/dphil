@@ -1,1 +1,5 @@
 thesis.code-workspace
+.DS_Store
+.vscode/
+~$*
+mv_files.sh
