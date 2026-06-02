@@ -1,6 +1,8 @@
 # Supplementary Material for DPhil Thesis
 
-This repository contains the Supplementary Material that accompanies my [DPhil thesis](https://github.com/jpwil/thesis). 
+This repository contains the Supplementary Material that accompanies my [DPhil thesis](https://github.com/jpwil/thesis). Please consider the following points when reviewing the Supplementary Material:
+
+**Please note:** R and shell scripts require the curated and harmonised datasets to execute. The code presented here is therefore for illustrative reasons alone. Anyone is welcome to adapt the code for their own purposes. 
 
 ## Contents
 
@@ -25,11 +27,14 @@ This repository contains the Supplementary Material that accompanies my [DPhil t
 |               | `MI/[EA\|ISC]/weightAge*.pdf`    | Scatter plots of weight (y-axis) vs. age (x-axis) for observed (blue) and imputed (red) data                                                                                                      |
 |               | `MI/[EA\|ISC]/weightHeight*.pdf` | Scatter plots of weight (y-axis) vs. height (x-axis) for observed (blue) and imputed (red) data                                                                                                   |
 |               | `MI/[EA\|ISC]/trace*.pdf`        | Trace plots of mean and standard deviation estimated values (y-axis) against iteration number (x-axis)                                                                                            |
-|               | `src/`                           | R and shell scripts (see script comments for further details) >>>                                                                                                                                 |
+|               | `R scripts/`                     | R and shell scripts (see script comments for further details) >>>                                                                                                                                 |
 |               | `R scripts/SLURM scripts/*`      | R and shell scripts for execution on SLURM via computing cluster                                                                                                                                  |
 |               | `R scripts/exploreData/*`        | R scripts for generation of figures and tables describing the datasets                                                                                                                            |
 |               | `R scripts/runModel/*`           | R scripts used for variable selection and model development                                                                                                                                       |
 |               | `R scripts/evalModel/*`          | R scripts for evaluation of model calibration, C-index, and for predicting the average random intercept                                                                                           |
 |               | `R scripts/bootstrapSummary/*`   | R scripts for pooling model statistics across bootstrapped datasets                                                                                                                               |
 |               | `R scripts/modelSummary/*`       | R scripts used for pooling and visualising multiple imputation diagnostics, summary calibration and C-index measures across contributed datasets                                                  |
-| **Chapter 4** | `MI/[EA\|ISC]/`                  | Multiple imputation diagnostic plots for the Indian subcontinent (ISC) models and East Africa (EA) models >>>                                                                                     |
+| **Chapter 4** | `calAge/*`                       | Indian subcontinent models: Calibration plots for age subgroups (under 18, 18 and over)                                                                                                           |
+|               | `Table 1.xlsx`                   | Indian subcontinent models: Eligibility criteria and outcome definitions for contributed studies                                                                                                  |
+| **Chapter 5** | `calAge/*`                       | East Africa models: Calibration plots for age subgroups (under 18, 18 and over)                                                                                                                   |
+|               | `Table 1.xlsx`                   | East Africa models: Eligibility criteria and outcome definitions for contributed studies                                                                                                          |
